@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Fairway Book",
+    "slug": "fairway-book",
+    "scheme": "fairwaybook",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0f1a14",
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.example.fairwaybook" },
+    "android": { "package": "com.example.fairwaybook" },
+    "web": { "bundler": "metro", "output": "single", "name": "Fairway Book", "themeColor": "#0f1a14" },
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": false }
+  }
+}
