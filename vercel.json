@@ -1,6 +1,6 @@
 {
   "installCommand": "npm install && npx expo install --fix",
-  "buildCommand": "expo export -p web",
+  "buildCommand": "EXPO_PUBLIC_SUPABASE_URL=${EXPO_PUBLIC_SUPABASE_URL:-$SUPABASE_URL} EXPO_PUBLIC_SUPABASE_KEY=${EXPO_PUBLIC_SUPABASE_KEY:-$SUPABASE_ANON_KEY} expo export -p web",
   "outputDirectory": "dist",
   "devCommand": "expo",
   "cleanUrls": true,
